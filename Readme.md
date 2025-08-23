@@ -2,6 +2,7 @@
 
 #### MutliAcademy ve Developer MultiGroup ekibi tarafından düzenlenen "Modern iOS Programming Course with Certification" eğitimi kapsamında verilen ödevleri içermektedir.  
 Amaç, Swift dili ile temel programlama, veri tipleri, fonksiyonlar ve SwiftUI ile iOS geliştirme konularında kendimi geliştirmektir.  
+Bunu yaparken de aynı zamanda ödevlerin bir arada durabiliceği mini bir uygulama oluşturuyorum.
 
 ## Ödevler
 
