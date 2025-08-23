@@ -212,8 +212,8 @@ private struct AboutSection: View {
 }
 
 private struct ButtonSection: View {
-    @State var showAlert : Bool = false
-    @State var showMessageAlert : Bool = false
+    @State private var showAlert : Bool = false
+    @State private var showMessageAlert : Bool = false
     var body: some View{
         HStack{
             Button(action: {
