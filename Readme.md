@@ -6,4 +6,5 @@ Amaç, Swift dili ile temel programlama, veri tipleri, fonksiyonlar ve SwiftUI i
 ## Ödevler
 
 [Ödev 1](Bootcamp/Homework1.swift)
+
 [Ödev 2](Bootcamp/Homework2.swift)
