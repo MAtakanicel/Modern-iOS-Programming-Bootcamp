@@ -22,17 +22,18 @@ struct Homework1: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                Text("Ödev 1.1 – Değişkenler & Optional")
-                    .font(.title2).bold()
+            Text("Ödev 1.1 – Değişkenler & Optional")
+                .font(.title2).bold().padding(.top)
+            VStack(alignment: .leading, spacing: 20,) {
+            
                 
                 // Temel Tipler
                 Group {
-                    Text("İsim: \(name)")
+                    Text("İsim: \(name)").padding(.top)
                     Text("Yaş: \(age)")
                     Text("Öğrenci mi? \(isStudent ? "Evet" : "Hayır")")
                     Text("Boy: \(height, specifier: "%.2f") m")
-                }
+                }.padding(.horizontal)
                 
                 Divider()
                 
@@ -40,12 +41,18 @@ struct Homework1: View {
                 // if let ile güvenli açma
                 if let url = githubURL {
                     Text("GitHub: \(url)")
+                        .padding(.horizontal)
+                        .padding(.bottom)
                 } else {
                     Text("GitHub adresi yok")
+                        .padding(.horizontal)
+                        .padding(.bottom)
                 }
                 
             }
-            .padding(25)
+            .background(CustomBackground())
+            .padding(.bottom)
+            .padding(.horizontal)
             Text("Ödev 1.2 - Fonksiyonlar ve Closure'lar")
                 .font(.title2).bold()
             
@@ -80,7 +87,7 @@ struct Homework1: View {
                     // Sonuç gösterimi
                     Text(result)
                         .font(.title3)
-                        .padding(.vertical, 10)
+                        .padding(.vertical, 25)
                     
                 }
                 .background(CustomBackground())
@@ -107,7 +114,7 @@ struct Homework1: View {
                         
                         Text("Sonuç: \(sonuc.map { String($0) }.joined(separator: ", "))")
                             .font(.headline)
-                            .padding(.bottom, 10)
+                            .padding(.bottom, 25)
                     }
             .background(CustomBackground())
             .padding()

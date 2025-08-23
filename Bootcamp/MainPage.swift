@@ -7,7 +7,7 @@ struct MainPage: View {
     var body: some View {
         
         NavigationStack {
-            VStack(alignment: .center) {
+            VStack(alignment: .center, spacing: 20) {
                 
                 PersonalInfoCardView(
                     name: "Mehmet Atakan İÇEL",
@@ -17,7 +17,7 @@ struct MainPage: View {
                     interests: "Mobil geliştirme & Web teknolojileri."
                 )
                 .padding(.horizontal, 20)
-                .padding(.vertical, 24)
+                .padding(.vertical, 10)
                 
                 .background(Color(.systemBackground))
                 
@@ -25,8 +25,17 @@ struct MainPage: View {
                     Text("Ödev 1")
                         .font(.headline)
                         .frame(width: 200, height: 40)
-                        .foregroundColor(.black)
-                        .background(.blue.opacity(0.9))
+                        .foregroundColor(.white.opacity(0.9))
+                        .background(LinearGradient(colors: [.blue, .purple], startPoint: .leading, endPoint: .trailing))
+                        .cornerRadius(20)
+                }
+                
+                NavigationLink(destination: Homework2()){
+                    Text("Ödev 2")
+                        .font(.headline)
+                        .frame(width: 200, height: 40)
+                        .foregroundColor(.white.opacity(0.9))
+                        .background(LinearGradient(colors: [.blue, .purple], startPoint: .leading, endPoint: .trailing))
                         .cornerRadius(20)
                 }
                 

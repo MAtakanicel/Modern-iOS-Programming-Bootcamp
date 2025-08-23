@@ -12,6 +12,7 @@ struct BootcampApp: App {
     var body: some Scene {
         WindowGroup {
             MainPage()
+                .preferredColorScheme(.light)
         }
     }
 }
