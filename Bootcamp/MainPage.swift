@@ -3,7 +3,7 @@ import Foundation
 import SwiftUI
 
 struct MainPage: View {
-
+    
     var body: some View {
         
         NavigationStack {
@@ -39,11 +39,19 @@ struct MainPage: View {
                         .cornerRadius(20)
                 }
                 
-                Spacer()
+                NavigationLink(destination: Homework3()){
+                    Text("Ödev 3")
+                        .font(.headline)
+                        .frame(width: 200, height: 40)
+                        .foregroundColor(.white.opacity(0.9))
+                        .background(LinearGradient(colors: [.blue, .purple], startPoint: .leading, endPoint: .trailing))
+                        .cornerRadius(20)
+                    
+                    
+                    Spacer()
+                }
             }
-            
         }
-        
     }
 }
     
