@@ -19,3 +19,5 @@ Bunu yaparken de aynı zamanda ödevlerin bir arada durabiliceği mini bir uygul
 [Ödev 6 - UserFlowApp](UserFlowAPP)
 
 [Ödev 7 - Not Defteri Uygulaması](Notebook)
+
+[Ödev 8 - Not Defteri (CRUD)(CoreData)](NotDefteri)
