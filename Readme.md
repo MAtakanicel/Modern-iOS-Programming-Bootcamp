@@ -22,4 +22,4 @@ Bunu yaparken de aynı zamanda ödevlerin bir arada durabiliceği mini bir uygul
 
 [Ödev 8 - Not Defteri (CRUD)(CoreData)](NotDefteri)
 
-[Ödev 9 - API'den Veri Çekmek(URLSession & JSON DECODE](APIGETAPP)
+[Ödev 9 - API'den Veri Çekmek(URLSession & JSON DECODE)](APIGETAPP)
