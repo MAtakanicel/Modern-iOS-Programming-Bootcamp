@@ -50,9 +50,3 @@ Akış:
 - Detay: büyük görsel, tür/durum, cinsiyet, origin, konum, bölüm sayısı, favori butonu
 - Favoriler: favori işareti verilen karakterler listesi
 
-### Geliştirme Fikirleri
-- Daha gelişmiş görsel önbelleği (Kingfisher/SDWebImage)
-- Core Data ile favoriler ve offline destek
-- Episode ve Location detaylarının gösterimi
-
-
