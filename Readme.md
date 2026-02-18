@@ -41,10 +41,10 @@ MutliAcademy ve Developer MultiGroup ekibi tarafından düzenlenen "Modern iOS P
     - URLSession kullanarak harici bir API'den (JSONPlaceholder) veri çekme, bu veriyi Swift modellerine dönüştürme (JSON Decode) ve sonuçları SwiftUI arayüzünde görüntüleme becerilerini geliştirmeye odaklanmıştır.
 
 [Ödev 10 - API Explorer](APIExplorer)
-    - Sayfalama (pagination/infinite scroll), gecikmeli arama (debounce) ve favorilere ekleme gibi ileri seviye özellikler barındıran, Rick and Morty API benzeri bir yapıdan karakterleri listeleyen gelişmiş bir keşif uygulamasıdır.
+    - Sayfalama (pagination/infinite scroll), gecikmeli arama (debounce) ve favorilere ekleme gibi ileri seviye özellikler barındıran ve Unit test içeren Rick and Morty API benzeri bir yapıdan karakterleri listeleyen gelişmiş bir keşif uygulamasıdır.
 
 [Ödev 11 - MapApp](MapApp)
     - MapKit ve CoreLocation kullanılarak anlık konum takibi yapan, adres çözümleme (geocoding) ile konumları isimlendirip SwiftData/CoreData ile favorilere kaydedebilen harita uygulamasıdır.
 
-[Ödev 12 - WidgetDeneme](https://github.com/MAtakanicel/widgetDeneme.git)
+
     
