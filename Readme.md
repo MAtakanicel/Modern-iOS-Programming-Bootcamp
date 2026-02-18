@@ -46,5 +46,6 @@ MutliAcademy ve Developer MultiGroup ekibi tarafından düzenlenen "Modern iOS P
 [Ödev 11 - MapApp](MapApp)
     - MapKit ve CoreLocation kullanılarak anlık konum takibi yapan, adres çözümleme (geocoding) ile konumları isimlendirip SwiftData/CoreData ile favorilere kaydedebilen harita uygulamasıdır.
 
+[Bitirme Projesi](https://github.com/MAtakanicel/TaskFlow)
 
     
